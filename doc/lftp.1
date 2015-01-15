@@ -2023,6 +2023,18 @@ when true, use Server Name Indication (SNI) TLS extension.
 if set to yes, then verify server's certificate to be signed by a known
 Certificate Authority and not be on Certificate Revocation List.
 .TP
+.BR ssl:no-sslsv3 \ (boolean)
+when true, disable SSLv3.
+.TP
+.BR ssl:no-tlsv1 \ (boolean)
+when true, disable TLSv1.
+.TP
+.BR ssl:no-tlsv1_1 \ (boolean)
+when true, disable TLSv1_1.
+.TP
+.BR ssl:no-tlsv1_2 \ (boolean)
+when true, disable TLSv1_2.
+.TP
 .BR torrent:ip " (ipv4 address)"
 IP address to send to the tracker. Specify it if you are using an HTTP proxy.
 .TP
